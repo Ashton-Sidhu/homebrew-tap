@@ -20,19 +20,19 @@ class SolusServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.23.0/solus-server-darwin-arm64.tar.gz"
-      sha256 "98fd53a13545a951f69f06f33af391cd688a2bf0cfa7be3d5db951d85a2cf027" # target: darwin-arm64
+      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.24.1/solus-server-darwin-arm64.tar.gz"
+      sha256 "13261d96d021aa8e353df64db3a7b1ca4cbc7fc2242209b20afee3e1b51a508c" # target: darwin-arm64
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.23.0/solus-server-linux-x64.tar.gz"
-      sha256 "364e0629aac5348bda8b66a3438e7b805a10d199e3b8488454c6519edd1b3e28" # target: linux-x64
+      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.24.1/solus-server-linux-x64.tar.gz"
+      sha256 "7e04ea2568a18e2079a16b60fc8088292082b35639a6da5e9e37ec5f7ae599c0" # target: linux-x64
     end
     on_arm do
-      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.23.0/solus-server-linux-arm64.tar.gz"
-      sha256 "22fe769c17dda0f57478bf8ebd65256549d0272c09a23d2bfaf07202f6f6c5d6" # target: linux-arm64
+      url "https://github.com/Ashton-Sidhu/solus/releases/download/v0.24.1/solus-server-linux-arm64.tar.gz"
+      sha256 "e8ece2fcf941a063984b51c2fb50e7aedd87a5b5ad1720ce68347d6fd95e99ab" # target: linux-arm64
     end
   end
 
