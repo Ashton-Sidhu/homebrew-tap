@@ -1,6 +1,6 @@
 cask "solus" do
-  version "0.25.2"
-  sha256 "e18a492fe59420587b8611a8ed472fe25a27d790aeb10145f297bfa4586491c3"
+  version "0.25.4"
+  sha256 "33d8f09671d7a38b61f16a9dfaae51207d415a61806360ce95e5cda019ced10f"
 
   url "https://github.com/Ashton-Sidhu/solus/releases/download/v#{version}/Solus-#{version}-arm64.dmg"
   name "Solus"
